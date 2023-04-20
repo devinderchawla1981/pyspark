@@ -1,2 +1,12 @@
 Spark.catalog.clearCache() will clear cache.
 
+
+Never use rdd.collect as it brings data from all executors
+On driver.
+
+In Pyspark you can selct columns in 3 ways.
+See which way work with function you are using.
+
+
+
+
