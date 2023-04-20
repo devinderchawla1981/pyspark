@@ -1,0 +1,2 @@
+Spark.catalog.clearCache() will clear cache.
+
